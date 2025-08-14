@@ -14,6 +14,6 @@ print("Tabelas:", tabelas)
 cursor = conn.cursor()
 
 # Ler uma tabela específica
-df = pd.read_sql_query("SELECT tabelas * FROM processes2", conn)
+#df = pd.read_sql_query("SELECT * FROM processes2", conn)
 
 conn.close()
